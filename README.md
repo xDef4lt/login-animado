@@ -7,5 +7,5 @@
 <p>Decidi desenvolver este projeto para treinar animações em CSS</p>
 <ul>
   <li> Todo o código está disponível caso queira dar uma olhada
-  <li> Você pode acessar a página clicando <a href="login-animado-liart.vercel.app">aqui</a>
+  <li> Você pode acessar a página clicando <a href="index.html">aqui</a>
 </ul>
