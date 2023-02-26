@@ -229,6 +229,6 @@ a.link:hover::after {
 }
 @media (max-width: 600px) {
     body {
-        background-size: 1250px;
+        background-size: cover;
     }
 }
