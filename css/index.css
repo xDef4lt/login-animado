@@ -21,6 +21,7 @@ input:focus {
 
 html {
     tap-highlight-color: transparent;
+}
 
 body {
     height: 800px;
