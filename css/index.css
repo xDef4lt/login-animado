@@ -24,6 +24,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    overflow-y: hidden;
     font-family: Typo Formal;
 }
 nav {
