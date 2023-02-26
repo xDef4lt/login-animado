@@ -109,7 +109,7 @@ form {
 .dados {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 55px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
@@ -117,6 +117,7 @@ form {
 label {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 .dados input, .dados p {
     width: auto;
