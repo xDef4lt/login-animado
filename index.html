@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        @font-face {
+            font-family: Typo Formal;
+            src: url('../fonts/Typo\ Formal\ Regular\ Demo.otf');
+        }
+    </style>
+    <title>Tela de Login</title>
+</head>
+<body>
+    <nav>
+        <ul class="social">
+            <li class="social">
+                <a href="https://github.com/xDef4lt" target="_blank">
+                    <img src="../imgs/github.svg" class="icon" alt="Logo Github">
+                </a>
+            </li>
+            <li class="social">
+                <a href="https://www.linkedin.com/in/arthur-santos-3b61a8267/" target="_blank">
+                    <img src="../imgs/linkedin.svg" class="icon" alt="Logo LinkedIn">
+                </a>
+            </li>
+            <li class="social">
+                <a href="mailto:contato.arthursantosdev@gmail.com" target="_blank">
+                    <img src="../imgs/email.png" class="icon" alt="Logo Email">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="card login">
+                <h2>entrar</h2>
+                <form>
+                    <div class="container field">
+                        <input type="email" name="email" id="inptUser" aria-placeholder="" placeholder="Email:" required>
+                        <img src="../imgs/user.png" class="logo" alt="Logo Usuário">
+                    </div>
+                    <div class="container field">
+                        <input type="password" name="senha" id="inptSenha" placeholder="Senha:" required>
+                        <img src="../imgs/olho.png" class="logo" id="show-password" alt="Logo Olho">
+                    </div>
+                    <div class="dados">
+                        <label for="inptCheck">
+                            <p>
+                                <input class="checkbox" type="checkbox" name="check" id="inptCheck">
+                                Mantenha-me conectado
+                            </p>
+                        </label>
+                        <p>
+                            <a class="link" href="#">Esqueceu a senha?</a>
+                        </p>
+                    </div>
+                    <div class="container">
+                        <button type="button">enviar</button>
+                        <button type="reset">limpar</button>
+                    </div>
+                    <div class="container">
+                        <p>
+                            Não possui uma conta?
+                            <a href="#" class="link">Cadastre-se</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script charset="UTF-8" src="../js/index.js" defer></script>
+</body>
+</html>
