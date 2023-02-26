@@ -12,6 +12,7 @@
     border: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 input:focus {
@@ -24,7 +25,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    overflow-y: hidden;
     font-family: Typo Formal;
 }
 nav {
