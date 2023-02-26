@@ -79,7 +79,7 @@ li.social {
 }
 div.card {
     min-width: 300px;
-    max-width: 400px;
+    max-width: 350px;
     margin: 100px auto;
     padding: 35px;
     background: var(--bg);
