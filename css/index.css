@@ -20,7 +20,7 @@ input:focus {
 }
 
 html {
-    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
 
 body {
     height: 800px;
