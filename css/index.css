@@ -20,7 +20,7 @@ input:focus {
 
 body {
     background-image: url('https://img.freepik.com/vetores-gratis/por-do-sol-no-oceano-com-vista-para-a-natureza-das-ondas-espirrando_107791-10239.jpg?w=826&t=st=1677287332~exp=1677287932~hmac=54a83cdcb531843a124b32ab70605240dad365287cbd9d74c489384f2087454c');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     position: relative;
     font-family: Typo Formal;
