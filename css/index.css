@@ -79,7 +79,7 @@ li.social {
 }
 div.card {
     min-width: 300px;
-    max-width: 350px;
+    max-width: 380px;
     margin: 100px auto;
     padding: 35px;
     background: var(--bg);
@@ -109,7 +109,7 @@ form {
 .dados {
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 30px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
