@@ -11,16 +11,13 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    user-select: none;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 input:focus {
     outline: 0;
-}
-
-html {
-    tap-highlight-color: transparent;
 }
 
 body {
