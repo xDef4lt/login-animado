@@ -3,7 +3,7 @@
 <h1>🔹login-animado</h1>
 <p>Uma simples página de login animada com HTML5 e CSS3</p>
 
-<h2> O que é esse projeto? </h2>
+<h2>&rarr O que é esse projeto? </h2>
 <p>Decidi desenvolver este projeto para treinar animações em CSS</p>
 <ul>
   <li> Todo o código está disponível caso queira dar uma olhada
