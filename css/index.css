@@ -25,11 +25,6 @@ body {
     position: relative;
     font-family: Typo Formal;
 }
-@media (max-width: 1200px) {
-    body {
-        background-size: 1350px;
-    }
-}
 nav {
     background-color: var(--bg);
     backdrop-filter: blur(4px);
@@ -112,7 +107,7 @@ form {
 .dados {
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 35px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
@@ -225,4 +220,15 @@ a.link::after {
 }
 a.link:hover::after {
     width: 100%;
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-size: 1550px;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-size: 1250px;
+    }
 }
