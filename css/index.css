@@ -39,9 +39,9 @@ li.social {
 }
 div.card {
     min-width: 300px;
-    max-width: 400px;
+    max-width: 380px;
     margin: 100px auto;
-    padding: 35px;
+    padding: 32px;
     background: var(--bg);
     color: var(--primary);
     position: relative;
@@ -51,7 +51,7 @@ div.card {
 form {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
     margin-top: 10px;
 }
 .card h2, button {
