@@ -1,26 +1,4 @@
-:root {
-    --primary: #000;
-    --secondary: #f3ae93;
-    --tertiary: #ebdbbb;
-    --link-color: #f5f5f5;
-    --bg: #be856467;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-input:focus {
-    outline: 0;
-}
-
 body {
-    height: 800px;
     background-image: url('https://img.freepik.com/vetores-gratis/por-do-sol-no-oceano-com-vista-para-a-natureza-das-ondas-espirrando_107791-10239.jpg?w=826&t=st=1677287332~exp=1677287932~hmac=54a83cdcb531843a124b32ab70605240dad365287cbd9d74c489384f2087454c');
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,27 +37,9 @@ li.social {
     background: var(--primary);
     transform: translateX(8px);
 }
-@media (max-width: 600px) {
-    nav {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: auto;
-        width: 100%;
-        padding-top: 20px;
-        background: none;
-    }
-    ul.social {
-        flex-direction: row;
-        justify-content: center;
-    }
-    .icon:hover {
-        transform: translateY(-5px);
-    }
-}
 div.card {
     min-width: 300px;
-    max-width: 380px;
+    max-width: 400px;
     margin: 100px auto;
     padding: 35px;
     background: var(--bg);
@@ -109,7 +69,7 @@ form {
 .dados {
     display: flex;
     flex-direction: row;
-    gap: 55px;
+    gap: 35px;
     width: 100%;
     align-items: flex-start;
     justify-content: flex-start;
@@ -117,7 +77,6 @@ form {
 label {
     display: flex;
     align-items: center;
-    gap: 5px;
 }
 .dados input, .dados p {
     width: auto;
