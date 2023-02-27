@@ -1,7 +1,4 @@
 @media (max-width: 600px) {
-    body {
-        background-size: 1250px;
-    }
     nav {
         position: absolute;
         top: 0;
@@ -23,5 +20,11 @@
 @media (max-width: 1200px) {
     body {
         background-size: 1550px;
+    }
+}
+
+@media (min-width: 1400px) {
+    div.card {
+        padding-top: 200px;
     }
 }
